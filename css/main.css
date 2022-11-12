@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "NanumBarunGothic";
+  src: url("../fonts/NanumBarunGothic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
