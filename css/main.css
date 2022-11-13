@@ -17,6 +17,10 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   background-color: cornflowerblue;
 }
@@ -36,4 +40,59 @@ header .logo {
   top: 0;
   bottom: 0;
   margin: auto 0 ;
+}
+
+header .sub-menu {
+
+}
+
+header .sub-menu ul.menu {
+  display: flex;
+  justify-content: right;
+  font-size: 13px;
+  font-family: Avenir, Arial, sans-serif;
+}
+
+header .sub-menu ul.menu li {
+  position: relative;
+}
+
+header .sub-menu ul.menu li::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 12px;
+  background-color: #e5e5e5;
+  /* Absolute, Fixed는 Display 속성이 Block으로 바뀐다. */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+header .sub-menu ul.menu li:first-child::before {
+  display: none;
+}
+
+header .sub-menu ul.menu li a {
+  display: block;
+  padding: 11px 16px;
+  font-size: 12px;
+  color: #555555;
+}
+
+header .sub-menu ul.menu li a:hover {
+  text-decoration: underline;
+}
+
+header .sub-menu .search {
+
+}
+
+header .sub-menu .search input {
+
+}
+
+header .sub-menu .search .material-icons {
+
 }
