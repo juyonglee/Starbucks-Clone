@@ -222,3 +222,15 @@ header .main-menu .item .item__contents .contents__texture .inner img {
   display: inline;
   vertical-align: top;
 }
+
+header .badges {
+  position: absolute;
+  top:154px;
+  right: 11px;
+}
+
+header .badges .badge {
+  margin-bottom: 1px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
