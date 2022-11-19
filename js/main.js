@@ -21,9 +21,18 @@ const badges = document.querySelector("header .badges");
 window.addEventListener("scroll", _.throttle(ev => {
   if (scrollY > 500) {
     //  Badge 보이기
-    badges.style.display = "none";
+    // badges.style.display = "none";
+    // gsap.to("Element", "Duration", "Options")
+    gsap.to(badges, .6, {
+      opacity: 0,
+      display: "none"
+    });
   } else {
     // Badge 숨기기
-    badges.style.display = "block";
+    // badges.style.display = "block";
+    gsap.to(badges, .6, {
+      opacity: 1,
+      display: "block"
+    });
   }
 }, 500))
