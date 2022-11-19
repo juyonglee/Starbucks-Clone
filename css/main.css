@@ -21,15 +21,18 @@ a {
   text-decoration: none;
 }
 
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
 header {
   background-color: #f6f5ef;
 }
 
 header .inner {
   height: 120px;
-  width: 1100px;
-  margin: 0 auto;
-  position: relative;
 }
 
 header .logo {
@@ -117,4 +120,41 @@ header .sub-menu .search .material-icons {
   bottom: 0;
   right: 7px;
   margin: auto;
+}
+
+/* Visual Section*/
+.visual {
+  background-image: url("../images/2022_christmas_main_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.visual .inner {
+  height: 646px;
+  width: 1100px;
+}
+
+.visual .title {
+  /*top: 28.8%;*/
+  /*position: absolute;*/
+}
+
+.visual .title .btn {
+
+}
+
+.visual .cup1.image {
+
+}
+
+.visual .cup2.image {
+
+}
+
+.visual .cup3.image {
+
+}
+
+.visual .cup4.image {
+
 }
