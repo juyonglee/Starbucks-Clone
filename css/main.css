@@ -26,6 +26,17 @@ a {
   width: 1100px;
   margin: 0 auto;
   position: relative;
+<<<<<<< HEAD
+=======
+}
+
+header {
+  background-color: #f6f5ef;
+}
+
+header .inner {
+  height: 120px;
+>>>>>>> visual_section
 }
 
 header {
@@ -127,6 +138,7 @@ header .sub-menu .search .material-icons {
   margin: auto;
 }
 
+<<<<<<< HEAD
 header .main-menu {
   display: flex;
   position: absolute;
@@ -234,4 +246,41 @@ header .badges .badge {
   margin-bottom: 1px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+=======
+/* Visual Section*/
+.visual {
+  background-image: url("../images/2022_christmas_main_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.visual .inner {
+  height: 646px;
+  width: 1100px;
+}
+
+.visual .title {
+  /*top: 28.8%;*/
+  /*position: absolute;*/
+}
+
+.visual .title .btn {
+
+}
+
+.visual .cup1.image {
+
+}
+
+.visual .cup2.image {
+
+}
+
+.visual .cup3.image {
+
+}
+
+.visual .cup4.image {
+
+>>>>>>> visual_section
 }
