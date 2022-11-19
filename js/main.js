@@ -15,3 +15,15 @@ searchInputElement.addEventListener("blur", ev => {
   searchInputElement.value = ""
   searchInputElement.setAttribute("placeholder", "");
 });
+
+window.addEventListener("scroll", _.throttle(ev => {
+  console.log(`X: ${window.scrollX}, Y: ${window.scrollY}`)
+  const badges = document.querySelector("header .badges");
+  if (scrollY > 500) {
+    //  Badge 보이기
+    badges.style.display = "none";
+  } else {
+    // Badge 숨기기
+    badges.style.display = "block";
+  }
+}, 500))
