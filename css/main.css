@@ -26,17 +26,10 @@ a {
   width: 1100px;
   margin: 0 auto;
   position: relative;
-<<<<<<< HEAD
-=======
-}
-
-header {
-  background-color: #f6f5ef;
 }
 
 header .inner {
   height: 120px;
->>>>>>> visual_section
 }
 
 header {
@@ -44,7 +37,9 @@ header {
   border-bottom: 1px solid #e5e5e5;
   border-top: 2px solid #000;
   position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 9;
 }
 
 header .logo {
@@ -138,7 +133,6 @@ header .sub-menu .search .material-icons {
   margin: auto;
 }
 
-<<<<<<< HEAD
 header .main-menu {
   display: flex;
   position: absolute;
@@ -246,9 +240,11 @@ header .badges .badge {
   margin-bottom: 1px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-=======
+}
+
 /* Visual Section*/
 .visual {
+  margin-top: 120px;
   background-image: url("../images/2022_christmas_main_bg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -260,12 +256,28 @@ header .badges .badge {
 }
 
 .visual .title {
-  /*top: 28.8%;*/
-  /*position: absolute;*/
+  position: absolute;
+  left: -9.7%;
+  top: 29.2%;
 }
 
 .visual .title .btn {
+  display: block;
+  width: 129px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 15px;
+  line-height: 34px;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 46px 80.5px;
+}
 
+.visual .title .btn:hover {
+  background-color: #ffffff;
+  color: #333333;
+  text-decoration: underline;
 }
 
 .visual .cup1.image {
@@ -282,5 +294,4 @@ header .badges .badge {
 
 .visual .cup4.image {
 
->>>>>>> visual_section
 }
