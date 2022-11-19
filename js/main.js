@@ -16,9 +16,9 @@ searchInputElement.addEventListener("blur", ev => {
   searchInputElement.setAttribute("placeholder", "");
 });
 
+const badges = document.querySelector("header .badges");
+
 window.addEventListener("scroll", _.throttle(ev => {
-  console.log(`X: ${window.scrollX}, Y: ${window.scrollY}`)
-  const badges = document.querySelector("header .badges");
   if (scrollY > 500) {
     //  Badge 보이기
     badges.style.display = "none";
