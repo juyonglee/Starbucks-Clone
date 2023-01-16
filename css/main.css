@@ -241,53 +241,67 @@ header .badges .badge {
 /* Visual Section*/
 .visual {
   margin-top: 120px;
-  background-image: url("../images/2022_christmas_main_bg.png");
+  background-image: url("../images/2023_newyear_top_bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .visual .inner {
-  height: 646px;
-  width: 1100px;
+  height: 34vw;
+  width: 100%;
 }
 
 .visual .title {
+  min-width: 100%;
+  margin: auto;
+}
+
+.visual .title img {
   position: absolute;
-  left: -9.7%;
-  top: 29.2%;
+  width: 18%;
+  left: 14.5%;
+  top: 27%;
 }
 
 .visual .title .btn {
   display: block;
-  width: 129px;
-  color: #fff;
-  border: 2px solid #fff;
-  font-size: 15px;
+  width: 7%;
+  color: #046241;
+  border: 2px solid #046241;
+  box-sizing: border-box;
+  font-size: 13px;
   line-height: 34px;
   border-radius: 5px;
   text-align: center;
-  box-sizing: border-box;
-  margin: 46px 80.5px;
+  position: absolute;
+  top: 66%;
+  left: 20%;
 }
 
 .visual .title .btn:hover {
-  background-color: #ffffff;
-  color: #333333;
+  background-color: #046241;
+  color: #fff;
   text-decoration: underline;
 }
 
 .visual .cup1.image {
-
+  position: absolute;
+  top: 17.8%;
+  left: 39%;
+  width: 15.4%;
 }
 
 .visual .cup2.image {
-
+  position: absolute;
+  top: 31.4%;
+  left: 49.4%;
+  width: 16.4%;
 }
 
 .visual .cup3.image {
-
-}
-
-.visual .cup4.image {
-
+  position: absolute;
+  top: 24.5%;
+  right: 22.4%;
+  width: 16.4%;
 }
