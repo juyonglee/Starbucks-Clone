@@ -28,10 +28,6 @@ a {
   position: relative;
 }
 
-header .inner {
-  height: 120px;
-}
-
 header {
   background-color: #f6f5ef;
   border-bottom: 1px solid #e5e5e5;
@@ -42,6 +38,10 @@ header {
   z-index: 9;
 }
 
+header > .inner {
+  height: 120px;
+}
+
 header .logo {
   /* Browser에게 정확한 Height를 알려줘야한다. */
   height: 75px;
@@ -49,10 +49,6 @@ header .logo {
   top: 0;
   bottom: 0;
   margin: auto 0;
-}
-
-header > .inner {
-  height: 120px;
 }
 
 header .sub-menu {
@@ -80,7 +76,7 @@ header .sub-menu ul.menu li::before {
   width: 1px;
   height: 12px;
   background-color: #e5e5e5;
-  /* Absolute, Fixed는 Display 속성이 Block으로 바뀐다. */
+  /* absolute, fixed는 Display 속성이 Block으로 바뀐다. */
   position: absolute;
   top: 0;
   bottom: 0;
