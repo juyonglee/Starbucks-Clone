@@ -35,4 +35,12 @@ window.addEventListener("scroll", _.throttle(ev => {
       display: "block"
     });
   }
-}, 500))
+}, 500));
+
+const fadeElements = document.querySelectorAll(".visual .fade-in");
+fadeElements.forEach((fadeElement, index) => {
+  gsap.to(fadeElement, 1, {
+    opacity: 1,
+    delay: (index + 1) * .7
+  });
+});
